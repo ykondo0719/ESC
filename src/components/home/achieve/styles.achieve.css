@@ -1,0 +1,41 @@
+.achieve {
+    padding-top: 40px;
+}
+
+.achieve-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cert-image {
+    background-color: #eaf3fa;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .achieve-title {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .cert-image {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .achieve-title {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
